@@ -1,6 +1,8 @@
 function makeInt(a) {
   // if(typeof(a) == 'st')
-  if(a.indexOf('0x') != undefined)
+  if(a.indexOf('0x') != undefined) {
+    return 0
+  }
   return parseInt(a)
 }
 
